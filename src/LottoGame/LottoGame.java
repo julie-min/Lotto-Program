@@ -5,38 +5,6 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-/*
-[원하는 메뉴 선택] (Controller)
--자동로또
--수동로또
--당첨번호조회
--당첨등수조회
--프로그램종료
-
-[자동로또]
-자동으로 랜덤 숫자 생성
--중복없이, 1~45 숫자 중에 6개 선택
-나의 로또 번호 최종 출력 6개
-
-[수동로또]
-사용자 숫자 6개 입력 (View)
-- 중복없이 6개의 treeset 채워질때까지 (Model)
-- 1~45사이의 숫자만: try/catch (Model)
-나의 로또 번호 최종 출력 6개 (View)
-
-[당첨번호조회]
-이번회차 당첨번호 추첨 공지 (View)
-- 6개의 랜덤한 숫자 생성 (Model)
-- 중복없이, 1~45의 숫자중에 6개 선택 (Model)
-
-[당첨등수조회]
-당첨결과비교 공지 (View)
-- 일치하는 번호 교집합 찾아내기 (Model)
-- 일치하는 번호가 몇개인지 세기 (
-- 등수 공개
-
-[프로그램종료]
- */
 public class LottoGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
